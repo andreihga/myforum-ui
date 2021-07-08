@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+html, body{
+  height: 100%;
+  margin: 0;
+  font-family: 'Encode Sans SC', sans-serif;
+  background-color: #32353c;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: gray;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
