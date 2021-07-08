@@ -6,20 +6,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {MyforumService} from "./services/myforum.service";
 import { AdminComponent } from './components/admin/admin.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './components/home/home.component';
+import {QuestionService} from "./services/question.service";
+import { QuestionsComponent } from './components/questions/questions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminComponent,
-    HomeComponent
+    HomeComponent,
+    QuestionsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [MyforumService],
+  providers: [MyforumService, QuestionService],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
