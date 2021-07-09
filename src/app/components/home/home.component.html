@@ -1,10 +1,24 @@
 <head>
   <title>Home</title>
 </head>
-<div class="title">
-<h1>My Forum</h1>
+
+<div class="title_bar">
+  <div class="site_title">
+    <h1>My Forum</h1>
+  </div>
+  <div class = "login">
+    <button class="login_button">Login</button>
+    <button class="account_button">My Account</button>
+    <button class="logout_button">Logout</button>
+  </div>
+
 </div>
 
+<div class="site-header">
+  <h1></h1>
+</div>
+
+<div class = "menu">
 <div class="navigation">
   <ul >
     <li><a href="#Categor1">{{categories[0]}}</a></li>
@@ -14,5 +28,11 @@
     <li><a href="#Categor1"> Category 5 </a></li>
     <li><a href="#Categor1"> Category 6 </a></li>
   </ul>
+</div>
+
+<div class = "questions">
+  <app-questions></app-questions>
+</div>
+
 </div>
 

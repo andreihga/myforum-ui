@@ -6,9 +6,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {MyforumService} from "./services/myforum.service";
 import { AdminComponent } from './components/admin/admin.component';
-import { HomeComponent } from './components/home/home.component';
 import {QuestionService} from "./services/question.service";
 import { QuestionsComponent } from './components/questions/questions.component';
+import {HomeComponent} from "./components/home/home.component";
 
 @NgModule({
   declarations: [

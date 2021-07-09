@@ -1,0 +1,22 @@
+.questions_list{
+  list-style-type: none;
+}
+
+li{
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:link {
+  color: #32353c;
+}
+
+a:visited {
+  color: #32353c;
+}
+
+a:hover {
+  color: #32353c;
+  font-size: 20px;
+  font-weight: bold;
+}
