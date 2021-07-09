@@ -30,3 +30,14 @@ a:hover {
 a:active {
   color: white;
 }
+
+button{
+  padding: 9px 12px 9px 12px;
+  background: rgb(34,193,195);
+  background: linear-gradient(354deg, rgba(34,193,195,1) 0%, white 46%);
+  color: #32353c;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 5px;
+}
